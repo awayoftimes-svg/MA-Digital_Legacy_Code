@@ -1,0 +1,2 @@
+luni_rag.db was too big to upload to github directly. If the build_index.py does not work (because of venv issues) , here is the download link to the database: https://drive.google.com/file/d/147OOy81caBx_1NcAJxv-PPh0FYzmsPk8/view?usp=drive_link
+to use the RAG, download this and add it into the out_data folder.
