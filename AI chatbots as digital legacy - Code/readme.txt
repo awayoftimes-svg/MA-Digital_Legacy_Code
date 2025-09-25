@@ -9,7 +9,7 @@ python -m venv .venv
 source .venv/bin/activate # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env
-# Trage in .env deinen OPENAI_API_KEY ein
+# Put the API key into the .env file!
 
 To build the rag: run build_index.py , it will then appear in out_data
 
@@ -22,3 +22,4 @@ Info: Videos that were transcribed have been removed to keep the repository smal
 - rag_chat_sqlite.py is for local RAG testing through the terminal.
 
 - API Key has been deleted from the .env file for privacy reasons
+
